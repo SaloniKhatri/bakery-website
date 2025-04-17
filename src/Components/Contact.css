@@ -1,0 +1,80 @@
+form{
+    padding: 30px;
+    width: 800px;
+    margin-left: 60px;
+}
+form label{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+
+form input{
+
+ margin: 10px;
+}
+/* .form-container{
+    margin-top: 140px; 
+  
+} */
+
+    .form-container {
+        padding: 30px;
+        max-width: 70%; /* Occupy a maximum of 90% of the viewport width */
+        margin-left: auto;  /* Use auto margins for centering */
+        margin-right: auto;
+        margin-top: 140px;
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
+    }
+
+
+@media (max-width: 768px) { /* For tablets and smaller screens */
+    .form-container {
+        padding: 20px;
+        max-width: 100%; /* Take up full width on small screens */
+        margin-left: 0;   /* Remove left margin on small screens */
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) { /* For very small screens (phones) */
+    .form-container {
+        padding: 10px;  /* Adjust padding for very small screens */
+    }
+}
+.Contact-Button1{
+    width: 120px;
+    padding: 7px;
+    border: 1px solid aquamarine;
+    border-radius: 45px;
+    background-color: #EBF6F4;
+    color: black;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.Contact-Button1:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    scale: 1.2;
+    margin-left:12px ;
+}
+.Contact-Button2{
+        width: 140px;
+        padding: 9px;
+        margin-top: 12px;
+        border: 1px solid #c62744;
+        border-radius: 45px;
+        background-color: #c62744;
+        color: white;
+        transition: 0.3s;
+        font-weight: bold;
+}
+.Contact-Button2:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    scale: 1.2;
+    margin-left:12px ;
+}

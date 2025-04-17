@@ -1,0 +1,12 @@
+.products-heading{
+    font-size: 54px;
+}
+
+img:hover{
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    scale: 1.1;
+    transition: all .6s ease;
+    cursor: pointer;
+}
