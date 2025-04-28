@@ -8,7 +8,7 @@ const LoginPage = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [name, setName] = useState('');
-    const [isSignUp, setIsSignUp] = useState(false); // Track if it's login or sign up
+    const [isSignUp, setIsSignUp] = useState(false); 
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
 

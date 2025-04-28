@@ -1,15 +1,17 @@
-/* Login Page Wrapper */
+
 .login-page {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #f8d7da, #fff0f2);
+    /* background: linear-gradient(135deg, #f8d7da, #fff0f2);
+    background: linear-gradient(135deg, rgb(234 194 189), rgb(234 194 189)); */
+    background-color: rgb(234 194 189);
     padding: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Login Card Container */
+
 .login-container {
     background-color: white;
     padding: 3rem 2rem;
@@ -20,7 +22,7 @@
     text-align: center;
 }
 
-/* Title Style */
+
 .login-title {
     font-size: 2rem;
     color: #c62744;
@@ -32,7 +34,7 @@
     
 }
 
-/* Input Group */
+
 .input-group {
     position: relative;
     margin-bottom: 1.5rem;
@@ -62,7 +64,7 @@
     box-shadow: 0 0 0 3px rgba(198, 39, 68, 0.15);
 }
 
-/* Button */
+
 .login-button {
     background-color: #c62744;
     border: none;
@@ -83,7 +85,7 @@
     cursor: not-allowed;
 }
 
-/* Toggle text */
+
 .toggle-text {
     margin-top: 1.5rem;
     font-size: 0.95rem;
@@ -96,7 +98,7 @@
     color: #c62744;
 }
 
-/* Error message */
+
 .error-message {
     color: #c62744;
     font-size: 15px;

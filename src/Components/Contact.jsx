@@ -49,7 +49,7 @@ function Contact() {
         <div className="">
           <div className="row align-items-center ">
             {/* Contact Form */}
-            <div className=" form-container col-lg-6 col-md-12 col-sm-12 ps-4"  style={{ margin: ' 100px' }}>
+            <div className=" form-container col-lg-6 col-md-12 col-sm-12 ps-4"  style={{ margin: ' 50px' }}>
               <form className="text-start">
                 <h3 className="text-start mb-5" style={{ color: '#c62744',  fontSize: 'clamp(1rem, 3vw, 2.25rem)' }}>Share your queries...</h3>
 
