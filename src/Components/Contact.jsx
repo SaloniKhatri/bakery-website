@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import './Contact.css';
+import { bottom, left } from '@popperjs/core';
 
 function Contact() {
   const navigate = useNavigate();
@@ -11,11 +12,11 @@ function Contact() {
 
   return (
     <>
-      <div className="w-100" style={{
+      <div className="w-100 py-5 mt-5" style={{
         backgroundImage: `url('https://theobroma.in/cdn/shop/files/Likeourprod-theo-new1.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: '27vh',
+        height: '30vh',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -35,7 +36,7 @@ function Contact() {
         <p className="fw-medium mt-3" style={{ fontSize: '1rem' }}>
           We would love to hear from you. Share your thoughts and queries with us!
         </p>
-        <div className="mt-3">
+        <div className="mt-2 pb-3">
           <img
             src="https://cdn.shopify.com/s/files/1/0521/3929/4884/t/12/assets/fm_testimonila-quote.png"
             alt="quote"
@@ -45,40 +46,40 @@ function Contact() {
         </div>
       </div>
 
-      <div className="contact-form " style={{ backgroundColor: 'rgb(255 236 233)' }}>
-        <div className="">
+      <div className="contact-form  " style={{ backgroundColor: 'rgb(246 240 239)' }}>
+        <div className=" container">
           <div className="row align-items-center ">
             {/* Contact Form */}
-            <div className=" form-container col-lg-6 col-md-12 col-sm-12 ps-4"  style={{ margin: ' 50px' }}>
+            <div className=" form-container col-lg-6 col-md-12 col-sm-12 ps-4"  style={{ margin: ' 15px' }}>
               <form className="text-start">
                 <h3 className="text-start mb-5" style={{ color: '#c62744',  fontSize: 'clamp(1rem, 3vw, 2.25rem)' }}>Share your queries...</h3>
 
-                <div className="mb-3 w-75">
+                <div className="mb-3 w-50">
                   <label htmlFor="name">Name</label>
                   <input className="form-control" type="text" id="name" placeholder="Enter your name..." />
                 </div>
 
-                <div className="mb-3 w-75">
+                <div className="mb-3 w-50">
                   <label htmlFor="contact">Contact No.</label>
                   <input className="form-control" type="number" id="contact" placeholder="Enter your contact number..." />
                 </div>
 
-                <div className="mb-3 w-75">
+                <div className="mb-3 w-50">
                   <label htmlFor="email">Email ID</label>
                   <input className="form-control" type="email" id="email" placeholder="Enter your email ID..." />
                 </div>
 
-                <div className="mb-3 w-75">
+                <div className="mb-3 w-50">
                   <label htmlFor="city">City</label>
                   <input className="form-control" type="text" id="city" placeholder="Enter your city name..." />
                 </div>
 
-                <div className="mb-3 w-75">
+                <div className="mb-3 w-50">
                   <label htmlFor="subject">Subject</label>
                   <input className="form-control" type="text" id="subject" placeholder="Enter subject..." />
                 </div>
 
-                <div className="mb-3 w-75">
+                <div className="mb-3 w-50">
                   <label htmlFor="message">Message</label>
                   <textarea className="form-control" id="message" rows="4" placeholder="Write your message here..."></textarea>
                 </div>
@@ -90,7 +91,7 @@ function Contact() {
             </div>
 
             {/* Contact Info & Image */}
-            <div className="col-lg-3 col-md-12 text-center">
+            <div className="col-lg-3 col-md-6 col-sm-6 text-center" style={{ marginLeft: '200px' }} >
               <img
                 src="https://cdn.shopify.com/s/files/1/0521/3929/4884/files/Contact_Us_Page1.png?v=1615372266"
                 alt="Contact Us"
@@ -120,7 +121,7 @@ function Contact() {
       </div>
 
 
-      <div className=" " style={{ backgroundColor: '#EBF6F4' }}>
+      <div className="" style={{ backgroundColor: '#EBF6F4' }}>
         <div className="container text-center py-5">
           <h1 className="p-3" style={{ color: '#c62744' }}>Like Our Products?</h1>
           <p className="fw-medium fs-5 mt-1">
@@ -186,7 +187,7 @@ function Contact() {
             </div>
 
             {/* Store locations */}
-            <div className="col-lg-4 col-md-12 col-sm-12 mt-4 text-center">
+            <div className="col-lg-4 col-md-12 col-sm-12 text-center">
               <p className="fw-bold">
                 OUR STORES - Agra | Ahmedabad | Ambala | Rohtak | Bengaluru | Chandigarh-Mohali | Chennai | Dehradun | Delhi |
                 Faridabad | Ghaziabad | Gurgaon | Hyderabad | Indore | Jaipur | Jalandhar | Kanpur | Karnal | Lucknow | Ludhiana |

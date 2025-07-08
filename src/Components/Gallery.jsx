@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-import './Menu.css'
+
 
 function Gallery() {
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ function Gallery() {
   return (
     <>
      
-      <div
+      <div className='pt-3'
         style={{
           backgroundImage: `url('https://cdn.shopify.com/s/files/1/0521/3929/4884/files/specialty-cakes-banner.jpg')`,
           backgroundSize: 'cover',
@@ -275,7 +275,7 @@ function Gallery() {
             </div>
 
             {/* Store locations */}
-            <div className="col-lg-4 col-md-12 col-sm-12 mt-4 text-center">
+            <div className="col-lg-4 col-md-12 col-sm-12 text-center">
               <p className="fw-bold">
                 OUR STORES - Agra | Ahmedabad | Ambala | Rohtak | Bengaluru | Chandigarh-Mohali | Chennai | Dehradun | Delhi |
                 Faridabad | Ghaziabad | Gurgaon | Hyderabad | Indore | Jaipur | Jalandhar | Kanpur | Karnal | Lucknow | Ludhiana |

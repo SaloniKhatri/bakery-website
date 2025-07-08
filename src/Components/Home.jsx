@@ -453,7 +453,7 @@ function Home() {
                         </div>
 
                         {/* Store locations */}
-                        <div className="col-lg-4 col-md-12 col-sm-12 mt-4 text-center">
+                        <div className="col-lg-4 col-md-12 col-sm-12 text-center">
                             <p className="fw-bold">
                                 OUR STORES - Agra | Ahmedabad | Ambala | Rohtak | Bengaluru | Chandigarh-Mohali | Chennai | Dehradun | Delhi |
                                 Faridabad | Ghaziabad | Gurgaon | Hyderabad | Indore | Jaipur | Jalandhar | Kanpur | Karnal | Lucknow | Ludhiana |

@@ -7,7 +7,7 @@ import { ShoppingCart } from 'lucide-react'; // For the shopping cart icon
 
 const TheobromaNavbar = () => {
     return (
-        <Navbar bg="light" expand="lg" className="shadow-sm">
+        <Navbar bg="light" expand="lg" className="shadow-sm fixed-top">
             <div className="container-fluid">
                 
                 <a className="navbar-brand" href="#">
@@ -74,24 +74,19 @@ const TheobromaNavbar = () => {
               </div>
               <div className="p-4 d-flex flex-col">
                 <div className="me-1">
-                  <input type="search" name="" id="" placeholder="Search here..." />
+ <input
+          type="text"
+          placeholder="Search here..."
+          className="form-control shadow-sm border-danger "
+        
+
+        />
                 </div>
 
-                {/* <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width={26}
-                                    height={26}
-                                    fill="currentColor"
-                                    className="bi bi-search-heart"
-                                    viewBox="0 0 16 16"
-                                >
-                                    <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018" />
-                                    <path d="M13 6.5a6.47 6.47 0 0 1-1.258 3.844q.06.044.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11" />
-                                </svg> */}
               </div>
               <div className="p-4">
                 <NavLink to='/login' className="nav-link " aria-current="page">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" className="bi bi-person-lines-fill" viewBox="0 0 16 16">
                     <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z" />
                   </svg>
                 </NavLink>
