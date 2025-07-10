@@ -26,7 +26,7 @@ Welcome to the **Bakery Website** — a responsive and elegant full stack projec
 ### 🌍 Deployment
 - **GitHub Pages** – Current frontend deployment  
 - **MongoDB Atlas** – For cloud-hosted MongoDB  
-- **Render** – For backend deployment (optional)  
+- **Render** – For backend deployment 
 
 ---
 
@@ -45,7 +45,6 @@ Welcome to the **Bakery Website** — a responsive and elegant full stack projec
 > Planning to convert this static site into a dynamic full-stack application.
 
 - 🔐 **User Authentication**  
-- 🛒 **Add to Cart & Checkout System**  
 - 📦 **Admin Panel** to manage inventory  
 - 📬 **Contact Form with Backend**  
 
@@ -78,3 +77,6 @@ Welcome to the **Bakery Website** — a responsive and elegant full stack projec
 
 ---
 ! Make sure you are connected to database (like mongoDB Compass or Atlas)
+
+---
+## 🧁 Bakery Website
