@@ -57,7 +57,8 @@ Welcome to the **Bakery Website** — a responsive and elegant full stack projec
    ```bash
    git clone https://github.com/salonikhatri/bakery-website.git
 
-2. Navigate to the folder
+2. Navigate to the folder: 
+```bash
    cd bakery-website
    cd frontend
 
