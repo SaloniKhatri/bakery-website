@@ -24,7 +24,7 @@ function Checkout() {
 
 
     try {
-      const res = await axios.post('http://localhost:2402/api/orders', {
+      const res = await axios.post('https://bakery-website-7s7s.onrender.com', {
         ...form,
         items: cartItems,
       }, {
