@@ -58,9 +58,23 @@ Welcome to the **Bakery Website** — a responsive and elegant full stack projec
    git clone https://github.com/salonikhatri/bakery-website.git
 
 2. Navigate to the folder: 
-```bash
+   ```bash
    cd bakery-website
    cd frontend
 
 3. To run: 
+    ```bash
     npm run dev
+
+# For Backend:
+1. Navigate to the folder: 
+   ```bash
+   cd bakery-website
+   cd backend
+
+2. To run: 
+    ```bash
+    node server.js
+
+---
+! Make sure you are connected to database (like mongoDB Compass or Atlas)
