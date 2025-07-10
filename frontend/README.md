@@ -59,6 +59,7 @@ Welcome to the **Bakery Website** — a responsive and elegant full stack projec
 
 2. Navigate to the folder
    cd bakery-website
+   cd frontend
 
 3. To run: 
     npm run dev
